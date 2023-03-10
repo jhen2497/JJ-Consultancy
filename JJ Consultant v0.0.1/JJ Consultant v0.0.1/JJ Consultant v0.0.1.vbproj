@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{9A0562A3-790C-45FF-9BF8-A2011DD3D64E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>JJ_Consultant_v0._0._1</RootNamespace>
+    <AssemblyName>JJ Consultant v0.0.1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44398</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>JJ Consultant v0.0.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>JJ Consultant v0.0.1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contactform\contactform.js" />
+    <Content Include="contactform\Readme.txt" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="img\JJConsultant_Tab_Icon_Gold.png" />
+    <Content Include="img\JJConsultant_Logo_Gold.png" />
+    <Content Include="img\JJConsultant_Logo_LB.png" />
+    <Content Include="img\JJConsultant_Tab_Icon_LB.png" />
+    <Content Include="img\properties\property-1.jpg" />
+    <Content Include="img\properties\property-2.jpg" />
+    <Content Include="img\properties\property-3.jpg" />
+    <Content Include="img\properties\property-4.jpg" />
+    <Content Include="img\properties\property-5.jpg" />
+    <Content Include="img\properties\property-6.png" />
+    <Content Include="img\source\about-1.jpg" />
+    <Content Include="img\source\about-2.jpg" />
+    <Content Include="img\source\agent-1.jpg" />
+    <Content Include="img\source\agent-2.jpg" />
+    <Content Include="img\source\agent-3.jpg" />
+    <Content Include="img\source\agent-4.jpg" />
+    <Content Include="img\source\agent-5.jpg" />
+    <Content Include="img\source\agent-6.jpg" />
+    <Content Include="img\source\agent-7.jpg" />
+    <Content Include="img\source\apple-touch-icon.png" />
+    <Content Include="img\source\author-1.jpg" />
+    <Content Include="img\source\author-2.jpg" />
+    <Content Include="img\source\bg-1.jpg" />
+    <Content Include="img\source\bg-2.jpg" />
+    <Content Include="img\source\bg-3.jpg" />
+    <Content Include="img\source\favicon.png" />
+    <Content Include="img\source\mini-testimonial-1.jpg" />
+    <Content Include="img\source\mini-testimonial-2.jpg" />
+    <Content Include="img\source\plan2.jpg" />
+    <Content Include="img\source\post-1.jpg" />
+    <Content Include="img\source\post-2.jpg" />
+    <Content Include="img\source\post-3.jpg" />
+    <Content Include="img\source\post-4.jpg" />
+    <Content Include="img\source\post-5.jpg" />
+    <Content Include="img\source\post-6.jpg" />
+    <Content Include="img\source\post-7.jpg" />
+    <Content Include="img\source\post-single-1.jpg" />
+    <Content Include="img\source\post-single-2.jpg" />
+    <Content Include="img\source\property-1.jpg" />
+    <Content Include="img\source\property-10.jpg" />
+    <Content Include="img\source\property-2.jpg" />
+    <Content Include="img\source\property-3.jpg" />
+    <Content Include="img\source\property-4.jpg" />
+    <Content Include="img\source\property-5.jpg" />
+    <Content Include="img\source\property-6.jpg" />
+    <Content Include="img\source\property-7.jpg" />
+    <Content Include="img\source\property-8.jpg" />
+    <Content Include="img\source\property-9.jpg" />
+    <Content Include="img\source\slide-1.jpg" />
+    <Content Include="img\source\slide-2.jpg" />
+    <Content Include="img\source\slide-3.jpg" />
+    <Content Include="img\source\slide-about-1.jpg" />
+    <Content Include="img\source\testimonial-1.jpg" />
+    <Content Include="img\source\testimonial-2.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="js\main.js" />
+    <Content Include="plugins\animate\animate.css" />
+    <Content Include="plugins\animate\animate.min.css" />
+    <Content Include="plugins\aos\css\aos.css" />
+    <Content Include="plugins\aos\js\aos.js" />
+    <Content Include="plugins\boostrap-4\css\bootstrap.css" />
+    <Content Include="plugins\boostrap-4\css\bootstrap.min.css" />
+    <Content Include="plugins\boostrap-4\js\bootstrap.js" />
+    <Content Include="plugins\boostrap-4\js\bootstrap.min.js" />
+    <Content Include="plugins\easing\easing.js" />
+    <Content Include="plugins\easing\easing.min.js" />
+    <Content Include="plugins\font-awesome\css\all.css" />
+    <Content Include="plugins\font-awesome\css\all.min.css" />
+    <Content Include="plugins\font-awesome\css\brands.css" />
+    <Content Include="plugins\font-awesome\css\brands.min.css" />
+    <Content Include="plugins\font-awesome\css\font-awesome.css" />
+    <Content Include="plugins\font-awesome\css\font-awesome.min.css" />
+    <Content Include="plugins\font-awesome\css\fontawesome.css" />
+    <Content Include="plugins\font-awesome\css\fontawesome.min.css" />
+    <Content Include="plugins\font-awesome\css\regular.css" />
+    <Content Include="plugins\font-awesome\css\regular.min.css" />
+    <Content Include="plugins\font-awesome\css\solid.css" />
+    <Content Include="plugins\font-awesome\css\solid.min.css" />
+    <Content Include="plugins\font-awesome\css\svg-with-js.css" />
+    <Content Include="plugins\font-awesome\css\svg-with-js.min.css" />
+    <Content Include="plugins\font-awesome\css\v4-font-face.css" />
+    <Content Include="plugins\font-awesome\css\v4-font-face.min.css" />
+    <Content Include="plugins\font-awesome\css\v4-shims.css" />
+    <Content Include="plugins\font-awesome\css\v4-shims.min.css" />
+    <Content Include="plugins\font-awesome\css\v5-font-face.css" />
+    <Content Include="plugins\font-awesome\css\v5-font-face.min.css" />
+    <Content Include="plugins\font-awesome\js\all.js" />
+    <Content Include="plugins\font-awesome\js\all.min.js" />
+    <Content Include="plugins\font-awesome\js\brands.js" />
+    <Content Include="plugins\font-awesome\js\brands.min.js" />
+    <Content Include="plugins\font-awesome\js\conflict-detection.js" />
+    <Content Include="plugins\font-awesome\js\conflict-detection.min.js" />
+    <Content Include="plugins\font-awesome\js\fontawesome.js" />
+    <Content Include="plugins\font-awesome\js\fontawesome.min.js" />
+    <Content Include="plugins\font-awesome\js\regular.js" />
+    <Content Include="plugins\font-awesome\js\regular.min.js" />
+    <Content Include="plugins\font-awesome\js\solid.js" />
+    <Content Include="plugins\font-awesome\js\solid.min.js" />
+    <Content Include="plugins\font-awesome\js\v4-shims.js" />
+    <Content Include="plugins\font-awesome\js\v4-shims.min.js" />
+    <Content Include="plugins\ionicons\css\ionicons.css" />
+    <Content Include="plugins\ionicons\css\ionicons.min.css" />
+    <Content Include="plugins\ionicons\fonts\ionicons.svg" />
+    <Content Include="plugins\jquery\jquery-migrate.min.js" />
+    <Content Include="plugins\jquery\jquery.min.js" />
+    <Content Include="plugins\owlcarousel\assets\ajax-loader.gif" />
+    <Content Include="plugins\owlcarousel\assets\owl.carousel.css" />
+    <Content Include="plugins\owlcarousel\assets\owl.carousel.min.css" />
+    <Content Include="plugins\owlcarousel\assets\owl.theme.default.css" />
+    <Content Include="plugins\owlcarousel\assets\owl.theme.default.min.css" />
+    <Content Include="plugins\owlcarousel\assets\owl.theme.green.css" />
+    <Content Include="plugins\owlcarousel\assets\owl.theme.green.min.css" />
+    <Content Include="plugins\owlcarousel\assets\owl.video.play.png" />
+    <Content Include="plugins\owlcarousel\owl.carousel.js" />
+    <Content Include="plugins\owlcarousel\owl.carousel.min.js" />
+    <Content Include="plugins\popper\popper-v2.11.6.min.js" />
+    <Content Include="plugins\popper\popper.min.js" />
+    <Content Include="plugins\scrollreveal\scrollreveal.js" />
+    <Content Include="plugins\scrollreveal\scrollreveal.min.js" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="index.aspx.designer.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.vb">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="plugins\ionicons\fonts\ionicons.eot" />
+    <Content Include="plugins\ionicons\fonts\ionicons.ttf" />
+    <Content Include="plugins\ionicons\fonts\ionicons.woff" />
+    <Content Include="plugins\ionicons\fonts\ionicons.woff2" />
+    <Content Include="plugins\owlcarousel\LICENSE" />
+    <Content Include="plugins\popper\popper.min.js.map.json" />
+    <Content Include="plugins\font-awesome\webfonts\fa-brands-400.ttf" />
+    <Content Include="plugins\font-awesome\webfonts\fa-brands-400.woff2" />
+    <Content Include="plugins\font-awesome\webfonts\fa-regular-400.ttf" />
+    <Content Include="plugins\font-awesome\webfonts\fa-regular-400.woff2" />
+    <Content Include="plugins\font-awesome\webfonts\fa-solid-900.ttf" />
+    <Content Include="plugins\font-awesome\webfonts\fa-solid-900.woff2" />
+    <Content Include="plugins\font-awesome\webfonts\fa-v4compatibility.ttf" />
+    <Content Include="plugins\font-awesome\webfonts\fa-v4compatibility.woff2" />
+    <Content Include="plugins\boostrap-4\css\bootstrap.min.css.map" />
+    <Content Include="plugins\boostrap-4\js\bootstrap.min.js.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51493</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44398/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
