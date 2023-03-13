@@ -32,111 +32,14 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="click-closed"></div>
-        <!--/ Form Search Star /-->
-        <div class="box-collapse">
-            <div class="title-box-d">
-                <h3 class="title-d">Search Property</h3>
-            </div>
-            <span class="close-box-collapse right-boxed ion-ios-close"></span>
-            <div class="box-collapse-wrap form">
-                <div class="form-a">
-                    <div class="row">
-                        <div class="col-md-12 mb-2">
-                            <div class="form-group">
-                                <label for="Type">Keyword</label>
-                                <input type="text" class="form-control form-control-lg form-control-a" placeholder="Keyword">
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="form-group">
-                                <label for="Type">Type</label>
-                                <select class="form-control form-control-lg form-control-a" id="Type">
-                                    <option>All Type</option>
-                                    <option>For Rent</option>
-                                    <option>For Sale</option>
-                                    <option>Open House</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="form-group">
-                                <label for="city">City</label>
-                                <select class="form-control form-control-lg form-control-a" id="city">
-                                    <option>All City</option>
-                                    <option>Alabama</option>
-                                    <option>Arizona</option>
-                                    <option>California</option>
-                                    <option>Colorado</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="form-group">
-                                <label for="bedrooms">Bedrooms</label>
-                                <select class="form-control form-control-lg form-control-a" id="bedrooms">
-                                    <option>Any</option>
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="form-group">
-                                <label for="garages">Garages</label>
-                                <select class="form-control form-control-lg form-control-a" id="garages">
-                                    <option>Any</option>
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                    <option>04</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="form-group">
-                                <label for="bathrooms">Bathrooms</label>
-                                <select class="form-control form-control-lg form-control-a" id="bathrooms">
-                                    <option>Any</option>
-                                    <option>01</option>
-                                    <option>02</option>
-                                    <option>03</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-2">
-                            <div class="form-group">
-                                <label for="price">Min Price</label>
-                                <select class="form-control form-control-lg form-control-a" id="price">
-                                    <option>Unlimite</option>
-                                    <option>$50,000</option>
-                                    <option>$100,000</option>
-                                    <option>$150,000</option>
-                                    <option>$200,000</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="col-md-12">
-                            <button type="submit" class="btn btn-b">Search Property</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/ Form Search End /-->
 
         <!--/ Nav Star /-->
         <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
             <div class="container">
-                
+
                 <a class="navbar-brand text-brand" href="#">
                     <img src="img/JJConsultant_Logo_Gold.png" />
                 </a>
-                <%--<button type="button" class="btn btn-link navbar-toggle-box-collapse d-md-none" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo01" aria-expanded="false">
-                    <i class="fa-solid fa-bars-staggered"></i>
-                </button>--%>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
                     aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
@@ -146,13 +49,13 @@
                 <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Home</a>
+                            <a class="nav-link active" href="index.aspx">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -169,14 +72,10 @@
                             <a class="nav-link" href="#">Property Locator</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
                         </li>
                     </ul>
                 </div>
-                <%--<button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
-                    data-target="#navbarTogglerDemo01" aria-expanded="false">
-                    <span class="fa fa-search" aria-hidden="true"></span>
-                </button>--%>
             </div>
         </nav>
         <!--/ Nav End /-->
@@ -196,9 +95,6 @@
                                                 <span class="color-b">Lorem ipsum </span>
                                                 <br>
                                                 consectetuer adipiscing elit</h5>
-                                            <%--<p class="intro-subtitle intro-price">
-                                                <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                                            </p>--%>
                                         </div>
                                     </div>
                                 </div>
@@ -218,9 +114,6 @@
                                                 <span class="color-b">Lorem ipsum </span>
                                                 <br>
                                                 consectetuer adipiscing elit</h5>
-                                            <%--<p class="intro-subtitle intro-price">
-                                                <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                                            </p>--%>
                                         </div>
                                     </div>
                                 </div>
@@ -240,9 +133,6 @@
                                                 <span class="color-b">Lorem ipsum </span>
                                                 <br>
                                                 consectetuer adipiscing elit</h5>
-                                            <%--<p class="intro-subtitle intro-price">
-                                                <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                                            </p>--%>
                                         </div>
                                     </div>
                                 </div>
@@ -260,11 +150,11 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box">
+                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
                                 <h2 class="title-a">About JJ Consultancy</h2>
                             </div>
                         </div>
-                        <div class="about-description">
+                        <div class="about-description" data-aos="zoom-in-up" data-aos-duration="2000">
                             <p>
                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
                                 Maecenas porttitor congue massa. Fusce posuere, magna sed 
@@ -291,7 +181,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box">
+                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
                                 <h2 class="title-a">Our Services</h2>
                             </div>
                         </div>
@@ -299,7 +189,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card-box-c foo">
+                        <div class="card-box-c" data-aos="fade-up" data-aos-duration="500">
                             <div class="card-header-c">
                                 <div class="card-title-c align-self-center">
                                     <h2 class="title-c">Search and Consultancy</h2>
@@ -318,7 +208,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card-box-c foo">
+                        <div class="card-box-c" data-aos="fade-up" data-aos-duration="1000">
                             <div class="card-header-c">
                                 <div class="card-title-c align-self-center">
                                     <h2 class="title-c">Project Selling</h2>
@@ -327,8 +217,8 @@
                             <div class="card-body-c">
                                 <p class="content-c">
                                     Nulla porttitor accumsan tincidunt. Curabitur aliquet quam id dui posuere blandit. Mauris blandit
-                aliquet elit, eget tincidunt
-                nibh pulvinar a.
+                                    aliquet elit, eget tincidunt
+                                    nibh pulvinar a.
                                 </p>
                             </div>
                             <div class="card-footer-c">
@@ -337,7 +227,7 @@
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card-box-c foo">
+                        <div class="card-box-c" data-aos="fade-up" data-aos-duration="1500">
                             <div class="card-header-c">
                                 <div class="card-title-c align-self-center">
                                     <h2 class="title-c">Investment Sales</h2>
@@ -360,7 +250,7 @@
                 </div>
                 <div class="row text-center pt-5">
                     <div class="col-lg-12 col-md-12">
-                        <a href="#" class="btn-see-all">View More</a>
+                        <a href="#" class="btn-see-all" data-aos="fade-up" data-aos-duration="2000">View More</a>
                     </div>
                 </div>
             </div>
@@ -373,15 +263,76 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box">
+                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
                                 <h2 class="title-a">Latest Properties</h2>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-
-                    <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="col-md-4">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-1.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            <a href="agent-single.html" class="link-two">Margaret Sotillo
+                      <br>
+                                                Escala</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                    </p>
+                                    <div class="info-agents color-a">
+                                        <p>
+                                            <strong>Phone: </strong>+54 356 945234
+                                        </p>
+                                        <p>
+                                            <strong>Email: </strong>agents@example.com
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-footer-d">
+                                    <div class="socials-footer d-flex justify-content-center">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa fa-dribbble" aria-hidden="true"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="500">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
                                 <img src="img/properties/property-1.jpg" alt="" class="img-a img-fluid">
@@ -400,7 +351,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="1500">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
                                 <img src="img/properties/property-2.jpg" alt="" class="img-a img-fluid">
@@ -419,7 +370,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="2000">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
                                 <img src="img/properties/property-3.jpg" alt="" class="img-a img-fluid">
@@ -438,7 +389,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="2500">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
                                 <img src="img/properties/property-4.jpg" alt="" class="img-a img-fluid">
@@ -457,7 +408,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="3000">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
                                 <img src="img/properties/property-5.jpg" alt="" class="img-a img-fluid">
@@ -476,10 +427,10 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-2 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4" data-aos="fade-up" data-aos-duration="3500">
                         <div class="card-box-a card-shadow">
                             <div class="img-box-a">
-                                <img src="img/properties/property-6.png" alt="" class="img-a img-fluid">
+                                <img src="img/properties/property-6.jpg" alt="" class="img-a img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-overlay-a-content">
@@ -495,9 +446,10 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="row text-center pt-5">
                     <div class="col-lg-12 col-md-12">
-                        <a href="#" class="btn-see-all">View More</a>
+                        <a href="#" class="btn-see-all" data-aos="fade-up" data-aos-duration="2000">View More</a>
                     </div>
                 </div>
             </div>
@@ -510,116 +462,87 @@
                 <div class="row justify-content-center">
                     <div class="col-md-12">
                         <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box">
+                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
                                 <h2 class="title-a">We're here to help. For more information, contact us today!</h2>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-12 d-flex justify-content-center">
+                        <a href="#" type="button" class="btn btn-a" data-aos="zoom-in-up" data-aos-duration="500">Contact Us</a>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <!--/ Contact End /-->
+
+        <!--/ footer Star /-->
+        <section class="section-footer">
+            <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
-                        <div class="row justify-content-center">
-                            <div class="col-md-7">
-                                <div class="form-a contactForm">
-                                    <%--<div id="sendmessage">Your message has been sent. Thank you!</div>
-                                    <div id="errormessage"></div>--%>
-                                    <div class="row">
-                                        <div class="col-md-6 mb-3">
-                                            <div class="form-group">
-                                                <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-                                                <div class="validation"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-6 mb-3">
-                                            <div class="form-group">
-                                                <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-                                                <div class="validation"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 mb-3">
-                                            <div class="form-group">
-                                                <input type="url" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-                                                <div class="validation"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 mb-3">
-                                            <div class="form-group">
-                                                <textarea name="message" class="form-control" name="message" cols="45" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                                <div class="validation"></div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12 d-flex justify-content-center">
-                                            <button type="submit" class="btn btn-a">Send Message</button>
-                                        </div>
-                                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="widget-a">
+                            <div class="w-header-a">
+                                <img src="img/JJConsultant_Logo_Gold.png" />
+                            </div>
+                            <div class="w-body-a">
+                                <p class="w-text-a color-text-a">
+                                    Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
+                                    sed aute irure.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-3">
+                        <div class="icon-box section-b2">
+                            <div class="icon-box-icon">
+                                <span class="ion-ios-paper-plane"></span>
+                            </div>
+                            <div class="icon-box-content table-cell">
+                                <div class="icon-box-title">
+                                    <h4 class="icon-title">Contact Information</h4>
+                                </div>
+                                <div class="icon-box-content">
+                                    <p class="mb-1">
+                                        Email:
+                                                <span class="color-a">info@jjconsultancy.ph</span>
+                                    </p>
+                                    <p class="mb-1">
+                                        Phone:
+                                                <span class="color-a">+63 282 949360</span>
+                                    </p>
                                 </div>
                             </div>
-                            
-                            <div class="col-md-5 section-md-t3">
-                                <div class="icon-box section-b2">
-                                    <div class="icon-box-icon">
-                                        <span class="ion-ios-paper-plane"></span>
-                                    </div>
-                                    <div class="icon-box-content table-cell">
-                                        <div class="icon-box-title">
-                                            <h4 class="icon-title">Contact Information</h4>
-                                        </div>
-                                        <div class="icon-box-content">
-                                            <p class="mb-1">
-                                                Email:
-                                                <span class="color-a">info@jjconsultancy.ph</span>
-                                            </p>
-                                            <p class="mb-1">
-                                                Phone:
-                                                <span class="color-a">+63 282 949360</span>
-                                            </p>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-12 col-md-3">
+                        <div class="icon-box">
+                            <div class="icon-box-icon">
+                                <span class="ion-ios-redo"></span>
+                            </div>
+                            <div class="icon-box-content table-cell">
+                                <div class="icon-box-title">
+                                    <h4 class="icon-title">Social networks</h4>
                                 </div>
-                                <div class="icon-box section-b2">
-                                    <div class="icon-box-icon">
-                                        <span class="ion-ios-pin"></span>
-                                    </div>
-                                    <div class="icon-box-content table-cell">
-                                        <div class="icon-box-title">
-                                            <h4 class="icon-title">Address</h4>
-                                        </div>
-                                        <div class="icon-box-content">
-                                            <p class="mb-1">
-                                                8/F Platinum 2000 Bldg., #7 Annapolis St., Greenhills, San Juan City
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="icon-box">
-                                    <div class="icon-box-icon">
-                                        <span class="ion-ios-redo"></span>
-                                    </div>
-                                    <div class="icon-box-content table-cell">
-                                        <div class="icon-box-title">
-                                            <h4 class="icon-title">Social networks</h4>
-                                        </div>
-                                        <div class="icon-box-content">
-                                            <div class="socials-footer">
-                                                <ul class="list-inline">
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="link-one">
-                                                            <i class="fa-brands fa-2x fa-facebook"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="link-one">
-                                                            <i class="fa-brands fa-2x fa-square-instagram"></i>
-                                                        </a>
-                                                    </li>
-                                                    <li class="list-inline-item">
-                                                        <a href="#" class="link-one">
-                                                            <i class="fa-brands fa-2x fa-tiktok"></i>
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                <div class="icon-box-content">
+                                    <div class="socials-footer">
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa-brands fa-2x fa-facebook"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa-brands fa-2x fa-square-instagram"></i>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="#" class="link-one">
+                                                    <i class="fa-brands fa-2x fa-tiktok"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -628,9 +551,6 @@
                 </div>
             </div>
         </section>
-        <!--/ Contact End /-->
-
-        <!--/ footer Star /-->
         <footer>
             <div class="container">
                 <div class="row">
@@ -654,7 +574,7 @@
                                 </li>
                             </ul>
                         </nav>
-                        
+
                         <div class="copyright-footer">
                             <p class="copyright color-text-a">
                                 &copy; Copyright
@@ -678,6 +598,7 @@
     <script src="plugins/easing/easing.min.js"></script>
     <script src="plugins/owlcarousel/owl.carousel.min.js"></script>
     <script src="plugins/scrollreveal/scrollreveal.min.js"></script>
+    <script src="plugins/aos/js/aos.js"></script>
 
     <!-- Main Javascript File -->
     <script src="js/main.js"></script>

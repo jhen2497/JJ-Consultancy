@@ -37,7 +37,25 @@ JJ Consultant v0.0.1
  Returns the Asp log object.
  </summary>
 </member>
+<member name="F:JJ_Consultant_v0._0._1.ContactUs._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
 <member name="F:JJ_Consultant_v0._0._1.index._form1">
+<summary>
+form1 control.
+</summary>
+<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+<member name="F:JJ_Consultant_v0._0._1.Services._form1">
 <summary>
 form1 control.
 </summary>

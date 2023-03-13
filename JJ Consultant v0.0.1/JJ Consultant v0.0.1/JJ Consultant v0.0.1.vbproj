@@ -94,18 +94,20 @@
   <ItemGroup>
     <Content Include="contactform\contactform.js" />
     <Content Include="contactform\Readme.txt" />
+    <Content Include="ContactUs.aspx" />
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
     <Content Include="img\JJConsultant_Tab_Icon_Gold.png" />
     <Content Include="img\JJConsultant_Logo_Gold.png" />
     <Content Include="img\JJConsultant_Logo_LB.png" />
     <Content Include="img\JJConsultant_Tab_Icon_LB.png" />
+    <Content Include="img\map-1.png" />
     <Content Include="img\properties\property-1.jpg" />
     <Content Include="img\properties\property-2.jpg" />
     <Content Include="img\properties\property-3.jpg" />
     <Content Include="img\properties\property-4.jpg" />
     <Content Include="img\properties\property-5.jpg" />
-    <Content Include="img\properties\property-6.png" />
+    <Content Include="img\properties\property-6.jpg" />
     <Content Include="img\source\about-1.jpg" />
     <Content Include="img\source\about-2.jpg" />
     <Content Include="img\source\agent-1.jpg" />
@@ -215,9 +217,17 @@
     <Content Include="plugins\popper\popper.min.js" />
     <Content Include="plugins\scrollreveal\scrollreveal.js" />
     <Content Include="plugins\scrollreveal\scrollreveal.min.js" />
+    <Content Include="Services.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContactUs.aspx.designer.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.aspx.vb">
+      <DependentUpon>ContactUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="index.aspx.designer.vb">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
@@ -243,6 +253,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Services.aspx.designer.vb">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.vb">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>

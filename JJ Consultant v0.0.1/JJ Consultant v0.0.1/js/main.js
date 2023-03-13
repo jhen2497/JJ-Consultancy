@@ -1,6 +1,6 @@
 (function ($) {
   "use strict";
-  
+
   // Preloader
   $(window).on('load', function () {
     if ($('#preloader').length) {
@@ -10,6 +10,12 @@
     }
   });
 
+  
+  AOS.init({
+	duration: 1000,
+	offset: 0,
+	easing: 'ease-in-sine'
+  });
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
@@ -27,8 +33,8 @@
 	var navHeight = nav.outerHeight();
 
 	/*--/ ScrollReveal /Easy scroll animations for web and mobile browsers /--*/
-	window.sr = ScrollReveal();
-	sr.reveal('.foo', { duration: 1000, delay: 15 });
+	//window.sr = ScrollReveal();
+	//sr.reveal('.foo', { duration: 1000, delay: 15 });
 
 	/*--/ Carousel owl /--*/
 	$('#carousel').owlCarousel({
