@@ -92,11 +92,11 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="contactform\contactform.js" />
-    <Content Include="contactform\Readme.txt" />
+    <Content Include="AboutUs.aspx" />
     <Content Include="ContactUs.aspx" />
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
+    <Content Include="img\JJC-Logo-Animation.gif" />
     <Content Include="img\JJConsultant_Tab_Icon_Gold.png" />
     <Content Include="img\JJConsultant_Logo_Gold.png" />
     <Content Include="img\JJConsultant_Logo_LB.png" />
@@ -108,6 +108,12 @@
     <Content Include="img\properties\property-4.jpg" />
     <Content Include="img\properties\property-5.jpg" />
     <Content Include="img\properties\property-6.jpg" />
+    <Content Include="img\services\investments.jpg" />
+    <Content Include="img\services\landlord-representation.jpg" />
+    <Content Include="img\services\project-sell.jpg" />
+    <Content Include="img\services\property-eval.jpg" />
+    <Content Include="img\services\research-consultancy.jpg" />
+    <Content Include="img\services\tenant-repre.jpg" />
     <Content Include="img\source\about-1.jpg" />
     <Content Include="img\source\about-2.jpg" />
     <Content Include="img\source\agent-1.jpg" />
@@ -221,6 +227,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutUs.aspx.designer.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AboutUs.aspx.vb">
+      <DependentUpon>AboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="ContactUs.aspx.designer.vb">
       <DependentUpon>ContactUs.aspx</DependentUpon>
     </Compile>
