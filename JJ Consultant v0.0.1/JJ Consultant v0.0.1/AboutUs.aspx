@@ -48,27 +48,19 @@
                 <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.aspx">Home</a>
+                            <a class="nav-link active" href="index.aspx">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="AboutUs.aspx">About Us</a>
+                            <a class="nav-link" href="AboutUs.aspx">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Properties
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Property 1</a>
-                                <a class="dropdown-item" href="#">Property 2</a>
-                                <a class="dropdown-item" href="#">Property 3</a>
-                                <a class="dropdown-item" href="#">Property 4</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" >Properties </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Property Locator</a>
+                            <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
@@ -83,13 +75,13 @@
         <section class="intro-single">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right" data-aos-duration="500">
-                        <div class="title-single-box" data-aos="zoom-in-right" data-aos-duration="500">
+                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right">
+                        <div class="title-single-box">
                             <h1 class="title-single">About Us</h1>
                         </div>
                     </div>
 
-                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left" data-aos-duration="500">
+                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left">
                         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
@@ -329,7 +321,7 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <div id="preloader">
-            <img src="img/JJC-Logo-Animation.gif" />
+            <img src="img/JJC-Logo-Animation-2.gif" />
         </div>
     </form>
 

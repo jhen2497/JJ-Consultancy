@@ -33,6 +33,10 @@ a:hover {
   text-decoration: none;
 }
 
+::marker {
+    color: #febf10;
+}
+
 .link-two {
   color: #000000;
   transition: all .5s ease;
@@ -377,7 +381,6 @@ a:hover {
 
 .title-box-d {
   padding-bottom: 1.8rem;
-  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -390,7 +393,7 @@ a:hover {
   content: '';
   position: absolute;
   width: 70px;
-  height: 4px;
+  height: 3px;
   background-color: #febf10;
   bottom: 20px;
   left: 0;
@@ -575,22 +578,27 @@ a:hover {
 /* Prelaoder */
 
 #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #1b1b1b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+#preloader::-webkit-scrollbar {
+    display: none;
 }
 
 #preloader img {
-    width: 10%;
-    height: 15%;
+    height: 25%;
 }
 
 /*#preloader:before {

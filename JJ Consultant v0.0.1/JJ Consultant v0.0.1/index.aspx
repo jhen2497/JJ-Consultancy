@@ -57,19 +57,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Properties
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Property 1</a>
-                                <a class="dropdown-item" href="#">Property 2</a>
-                                <a class="dropdown-item" href="#">Property 3</a>
-                                <a class="dropdown-item" href="#">Property 4</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" >Properties </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Property Locator</a>
+                            <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
@@ -241,7 +233,7 @@
                     </div>
                     
                     <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
                             <div class="img-box-b">
                                 <img src="img/services/investments.jpg" alt="" class="img-b img-fluid">
                             </div>
@@ -547,7 +539,7 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <div id="preloader">
-            <img src="img/JJC-Logo-Animation.gif" />
+            <img src="img/JJC-Logo-Animation-2.gif" />
         </div>
     </form>
 

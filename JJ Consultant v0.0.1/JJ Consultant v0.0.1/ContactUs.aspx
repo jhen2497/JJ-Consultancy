@@ -48,7 +48,7 @@
                 <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.aspx">Home</a>
+                            <a class="nav-link active" href="index.aspx">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="AboutUs.aspx">About Us</a>
@@ -56,22 +56,14 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Properties
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Property 1</a>
-                                <a class="dropdown-item" href="#">Property 2</a>
-                                <a class="dropdown-item" href="#">Property 3</a>
-                                <a class="dropdown-item" href="#">Property 4</a>
-                            </div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" >Properties </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Property Locator</a>
+                            <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="ContactUs.aspx">Contact Us</a>
+                            <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -83,19 +75,20 @@
         <section class="intro-single">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right" data-aos-duration="500">
+                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right">
                         <div class="title-single-box">
                             <h1 class="title-single">Contact US</h1>
                             <span class="color-text-a">Aut voluptas consequatur unde sed omnis ex placeat quis eos. Aut natus officia corrupti qui autem fugit consectetur quo. Et ipsum eveniet laboriosam voluptas beatae possimus qui ducimus. Et voluptatem deleniti. Voluptatum voluptatibus amet. Et esse sed omnis inventore hic culpa.</span>
                         </div>
                     </div>
-                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left" data-aos-duration="500">
+                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left">
                         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="index.aspx">Home</a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Contact
+                                <li class="breadcrumb-item active" aria-current="page">
+                                    Contact
                                 </li>
                             </ol>
                         </nav>
@@ -103,7 +96,7 @@
                     <div class="col-sm-12">
                         <div class="row justify-content-center">
                             <div class="col-md-12">
-                                <div class="form-a contactForm" data-aos="zoom-in-right" data-aos-duration="1000">
+                                <div class="form-a contactForm" data-aos="zoom-in-right">
                                     <div class="row">
                                         <div class="col-md-6 mb-3">
                                             <div class="form-group">
@@ -132,14 +125,6 @@
                                 </div>
                             </div>
 
-                            <%--<div class="col-md-5 section-md-t3">
-                                <div class="contact-map box">
-                                    <div id="map" class="contact-map">
-                                        <iframe src="https://maps.google.com/maps?q=PLATINUM%202000&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                                            width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
-                                    </div>
-                                </div>
-                            </div>--%>
                         </div>
                     </div>
                 </div>
@@ -262,7 +247,7 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <div id="preloader">
-            <img src="img/JJC-Logo-Animation.gif" />
+            <img src="img/JJC-Logo-Animation-2.gif" />
         </div>
     </form>
 

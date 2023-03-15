@@ -412,4 +412,7 @@
   .about-img {
       display: none;
   }
+  #preloader img {
+      height: 20%;
+  }
 }

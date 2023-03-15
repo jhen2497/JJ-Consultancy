@@ -96,6 +96,7 @@
     <Content Include="ContactUs.aspx" />
     <Content Include="css\responsive.css" />
     <Content Include="css\style.css" />
+    <Content Include="img\JJC-Logo-Animation-2.gif" />
     <Content Include="img\JJC-Logo-Animation.gif" />
     <Content Include="img\JJConsultant_Tab_Icon_Gold.png" />
     <Content Include="img\JJConsultant_Logo_Gold.png" />
@@ -223,6 +224,7 @@
     <Content Include="plugins\popper\popper.min.js" />
     <Content Include="plugins\scrollreveal\scrollreveal.js" />
     <Content Include="plugins\scrollreveal\scrollreveal.min.js" />
+    <Content Include="PropertyLocator.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -267,6 +269,20 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="PropertiesMaster.Master.designer.vb">
+      <DependentUpon>PropertiesMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="PropertiesMaster.Master.vb">
+      <DependentUpon>PropertiesMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PropertyLocator.aspx.designer.vb">
+      <DependentUpon>PropertyLocator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PropertyLocator.aspx.vb">
+      <DependentUpon>PropertyLocator.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Services.aspx.designer.vb">
       <DependentUpon>Services.aspx</DependentUpon>
     </Compile>
@@ -310,6 +326,7 @@
     <Content Include="plugins\font-awesome\webfonts\fa-v4compatibility.woff2" />
     <Content Include="plugins\boostrap-4\css\bootstrap.min.css.map" />
     <Content Include="plugins\boostrap-4\js\bootstrap.min.js.map" />
+    <Content Include="PropertiesMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
