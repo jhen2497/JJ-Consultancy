@@ -48,20 +48,20 @@
                 <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.aspx">Home</a>
+                            <a class="nav-link" href="index.aspx">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="AboutUs.aspx">About Us</a>
+                            <a class="nav-link active" href="AboutUs.aspx">About Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" >Properties </a>
+                            <a class="nav-link" href="Properties.aspx">Properties </a>
                         </li>
-                        <li class="nav-item">
+                        <%--<li class="nav-item">
                             <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
-                        </li>
+                        </li>--%>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
                         </li>
@@ -298,7 +298,7 @@
                                     <a href="Services.aspx">Services</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Properties</a>
+                                    <a href="Properties.aspx">Properties</a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="ContactUs.aspx">Contact</a>

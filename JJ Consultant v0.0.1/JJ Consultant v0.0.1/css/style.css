@@ -1281,7 +1281,7 @@ a:hover {
 }
 
 .card-footer-a .card-title-a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
@@ -1619,12 +1619,13 @@ a:hover {
 
 .card-box-d .title-d {
   transition: .3s ease-in-out;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.2rem !important;
+  font-weight: 800;
   margin: 1rem 0;
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
   opacity: 0;
+  text-transform: uppercase;
 }
 
 .card-box-d .content-d {
@@ -1632,6 +1633,9 @@ a:hover {
   transition: .5s ease-in-out;
   -webkit-transform: translateY(-40px);
   transform: translateY(-40px);
+  color: #313131;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .card-box-d .info-agents {
@@ -1654,6 +1658,10 @@ a:hover {
   margin-right: 25px;
 }
 
+.card-box-d .card-overlay-hover {
+  padding: 20px 20px !important;
+}
+
 .card-box-d:hover .card-overlay-hover {
   background-color: #febf10;
   opacity: .9;
@@ -1668,14 +1676,15 @@ a:hover {
   transform: translateY(0);
 }
 
-/*------/ Agent Single /------*/
-
-.agent-info-box .socials-footer {
-  margin-top: 2rem;
+.card-box-footer-d .card-footer-btn-d {
+  color: #313131;
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 9999;
 }
 
-.agent-info-box .socials-footer li {
-  margin-right: 1.5rem;
+.card-box-footer-d .btn-footer-d {
+  z-index: 1;
 }
 
 /*======================================

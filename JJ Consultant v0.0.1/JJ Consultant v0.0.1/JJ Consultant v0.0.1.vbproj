@@ -224,6 +224,7 @@
     <Content Include="plugins\popper\popper.min.js" />
     <Content Include="plugins\scrollreveal\scrollreveal.js" />
     <Content Include="plugins\scrollreveal\scrollreveal.min.js" />
+    <Content Include="Properties.aspx" />
     <Content Include="PropertyLocator.aspx" />
     <Content Include="Services.aspx" />
     <Content Include="Web.config" />
@@ -269,12 +270,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="PropertiesMaster.Master.designer.vb">
-      <DependentUpon>PropertiesMaster.Master</DependentUpon>
+    <Compile Include="Properties.aspx.designer.vb">
+      <DependentUpon>Properties.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PropertiesMaster.Master.vb">
-      <DependentUpon>PropertiesMaster.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
+    <Compile Include="Properties.aspx.vb">
+      <DependentUpon>Properties.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="PropertyLocator.aspx.designer.vb">
       <DependentUpon>PropertyLocator.aspx</DependentUpon>
@@ -326,7 +327,6 @@
     <Content Include="plugins\font-awesome\webfonts\fa-v4compatibility.woff2" />
     <Content Include="plugins\boostrap-4\css\bootstrap.min.css.map" />
     <Content Include="plugins\boostrap-4\js\bootstrap.min.js.map" />
-    <Content Include="PropertiesMaster.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

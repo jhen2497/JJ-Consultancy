@@ -1,4 +1,6 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Services.aspx.vb" Inherits="JJ_Consultant_v0._0._1.Services" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Properties.aspx.vb" Inherits="JJ_Consultant_v0._0._1.Properties" %>
+
+<!DOCTYPE html>
 
 <!DOCTYPE html>
 
@@ -32,6 +34,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        
         <!--/ Nav Star /-->
         <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
             <div class="container">
@@ -54,10 +57,10 @@
                             <a class="nav-link" href="AboutUs.aspx">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Services.aspx">Services</a>
+                            <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Properties.aspx">Properties </a>
+                            <a class="nav-link active" href="Properties.aspx">Properties </a>
                         </li>
                         <%--<li class="nav-item">
                             <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
@@ -75,19 +78,19 @@
         <section class="intro-single">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right" data-aos-duration="500">
-                        <div class="title-single-box" data-aos="zoom-in-right" data-aos-duration="500">
-                            <h1 class="title-single">Services</h1>
+                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right">
+                        <div class="title-single-box">
+                            <h1 class="title-single">Properties</h1>
                         </div>
                     </div>
-                    
-                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left" data-aos-duration="500">
+
+                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left">
                         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="index.aspx">Home</a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Services
+                                <li class="breadcrumb-item active" aria-current="page">Properties
                                 </li>
                             </ol>
                         </nav>
@@ -97,182 +100,208 @@
         </section>
         <!--/ Intro Single End /-->
 
-        <!--/ Services Star /-->
-        <section class="section-services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="500">
-                            <div class="img-box-b">
-                                <img src="img/services/research-consultancy.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Search and Consultancy</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                            Mauris blandit aliquet elit, eget tincidunt
-                                            nibh pulvinar a.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="img-box-b">
-                                <img src="img/services/project-sell.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Project Selling</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Nulla porttitor accumsan tincidunt. 
-                                            Curabitur aliquet quam id dui posuere blandit. 
-                                            Mauris blandit aliquet elit, eget tincidunt
-                                            nibh pulvinar a.
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
-                            <div class="img-box-b">
-                                <img src="img/services/investments.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Investments</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="500">
-                            <div class="img-box-b">
-                                <img src="img/services/tenant-repre.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Tenant Representation</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="img-box-b">
-                                <img src="img/services/landlord-representation.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Landlord Representation</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
-                            <div class="img-box-b">
-                                <img src="img/services/property-eval.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Property Valuation</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--/ Services End /-->
-
-        <!--/ Contact Star /-->
-        <section class="section-contact" id="contact-us">
+        <!--/ Property Star /-->
+        <section class="section-property" id="properties">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-md-12">
-                        <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
-                                <h2 class="title-a">We're here to help. For more information, contact us today!</h2>
+
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-1.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, 
+                                        purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 d-flex justify-content-center">
-                        <a href="ContactUs.aspx" type="button" class="btn btn-a" data-aos="zoom-in-up" data-aos-duration="500">Contact Us</a>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-4.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                        Proin pharetra nonummy pede. Mauris et orci.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-5.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+                                        Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-6.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+                                        Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/source/property-6.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, 
+                                        purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/source/property-7.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                        Proin pharetra nonummy pede. Mauris et orci.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-5.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+                                        Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-6.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">
+                                            Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+                                        Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
-        <!--/ Contact End /-->
-
+        <!--/ Property End /-->
+        
         <!--/ footer Star /-->
         <section class="section-footer">
             <div class="container">

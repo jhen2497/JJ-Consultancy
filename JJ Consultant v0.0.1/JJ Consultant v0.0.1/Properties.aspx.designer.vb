@@ -12,7 +12,7 @@ Option Explicit On
 
 
 
-Partial Public Class PropertiesMaster
+Partial Public Class Properties
 
     '''<summary>
     '''form1 control.
@@ -22,13 +22,4 @@ Partial Public Class PropertiesMaster
     '''To modify move field declaration from designer file to code-behind file.
     '''</remarks>
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
-
-    '''<summary>
-    '''ContentPlaceHolder1 control.
-    '''</summary>
-    '''<remarks>
-    '''Auto-generated field.
-    '''To modify move field declaration from designer file to code-behind file.
-    '''</remarks>
-    Protected WithEvents ContentPlaceHolder1 As Global.System.Web.UI.WebControls.ContentPlaceHolder
 End Class
