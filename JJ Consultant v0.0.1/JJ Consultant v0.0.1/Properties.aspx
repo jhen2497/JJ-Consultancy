@@ -252,7 +252,7 @@
                     <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1500">
                         <div class="card-box-d card-shadow news-box">
                             <div class="card-img-d">
-                                <img src="img/properties/property-5.jpg" alt="" class="img-d img-fluid">
+                                <img src="img/source/property-8.jpg" alt="" class="img-d img-fluid">
                             </div>
                             <div class="card-overlay card-overlay-hover">
                                 <div class="card-header-d">
@@ -276,7 +276,7 @@
                     <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="2000">
                         <div class="card-box-d card-shadow news-box">
                             <div class="card-img-d">
-                                <img src="img/properties/property-6.jpg" alt="" class="img-d img-fluid">
+                                <img src="img/source/property-9.jpg" alt="" class="img-d img-fluid">
                             </div>
                             <div class="card-overlay card-overlay-hover">
                                 <div class="card-header-d">

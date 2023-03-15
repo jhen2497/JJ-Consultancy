@@ -73,7 +73,7 @@
         <!--/ Nav End /-->
 
         <!--/ Carousel Star /-->
-        <%--<div class="intro intro-carousel" id="home">
+        <div class="intro intro-carousel" id="home">
             <div id="carousel" class="owl-carousel owl-theme">
                 <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/source/slide-1.jpg)">
                     <div class="overlay overlay-a"></div>
@@ -133,100 +133,14 @@
                     </div>
                 </div>
             </div>
-        </div>--%>
-
-        <div class="intro intro-carousel">
-            <div id="carousel" class="owl-carousel owl-theme">
-                <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-1.jpg)">
-                    <div class="overlay overlay-a"></div>
-                    <div class="intro-content display-table">
-                        <div class="table-cell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-8">
-                                        <div class="intro-body">
-                                            <p class="intro-title-top">
-                                                Doral, Florida
-                      <br>
-                                                78345
-                                            </p>
-                                            <h1 class="intro-title mb-4">
-                                                <span class="color-b">204 </span>Mount
-                      <br>
-                                                Olive Road Two</h1>
-                                            <p class="intro-subtitle intro-price">
-                                                <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-2.jpg)">
-                    <div class="overlay overlay-a"></div>
-                    <div class="intro-content display-table">
-                        <div class="table-cell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-8">
-                                        <div class="intro-body">
-                                            <p class="intro-title-top">
-                                                Doral, Florida
-                      <br>
-                                                78345
-                                            </p>
-                                            <h1 class="intro-title mb-4">
-                                                <span class="color-b">204 </span>Rino
-                      <br>
-                                                Venda Road Five</h1>
-                                            <p class="intro-subtitle intro-price">
-                                                <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item-a intro-item bg-image" style="background-image: url(img/slide-3.jpg)">
-                    <div class="overlay overlay-a"></div>
-                    <div class="intro-content display-table">
-                        <div class="table-cell">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-lg-8">
-                                        <div class="intro-body">
-                                            <p class="intro-title-top">
-                                                Doral, Florida
-                      <br>
-                                                78345
-                                            </p>
-                                            <h1 class="intro-title mb-4">
-                                                <span class="color-b">204 </span>Alira
-                      <br>
-                                                Roan Road One</h1>
-                                            <p class="intro-subtitle intro-price">
-                                                <a href="#"><span class="price-a">rent | $ 12.000</span></a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
         <!--/ Carousel end /-->
 
         <!--/ About Us Star /-->
         <section class="section-about" id="about-us">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-10">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
                         <div class="title-wrap d-flex justify-content-center">
                             <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
                                 <h2 class="title-a">About JJ Consultancy</h2>
@@ -246,11 +160,6 @@
                                 Mauris eget neque at sem venenatis eleifend. Ut nonummy.
 
                             </p>
-                        </div>
-                    </div>
-                    <div class="col-md-2 col-lg-2 about-img" data-aos="fade-left">
-                        <div class="about-img-inner">
-                            <img src="img/source/about-1.jpg" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>

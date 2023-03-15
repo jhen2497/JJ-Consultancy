@@ -776,7 +776,7 @@ a:hover {
 }
 
 .navbar-brand {
-    width: 96px;
+    width: 5%;
     margin-right: 0px;
 }
 
@@ -1612,6 +1612,10 @@ a:hover {
 /*======================================
 //--//-->   AGENTS - CARD-D
 ======================================*/
+.card-box-d {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
 .card-box-d .card-overlay-hover {
     transition: all .2s ease-in-out;
     padding: 15px 40px 15px 35px;
