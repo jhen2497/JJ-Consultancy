@@ -33,6 +33,10 @@ a:hover {
   text-decoration: none;
 }
 
+::marker {
+    color: #febf10;
+}
+
 .link-two {
   color: #000000;
   transition: all .5s ease;
@@ -269,9 +273,8 @@ a:hover {
 }
 
 /*------/ Section /------*/
-.section-aboutUs {
+.section-about {
     background-color: #f5f5f5;
-    background-image: url('../img/source/bg-2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -285,7 +288,7 @@ a:hover {
 .about-description p {
     font-size: 15px;
     color: #100f0f;
-    text-align: justify;
+    text-align: center;
 }
 .section-services {
     background-color: #f5f5f5;
@@ -377,7 +380,6 @@ a:hover {
 
 .title-box-d {
   padding-bottom: 1.8rem;
-  margin-bottom: 1rem;
   position: relative;
 }
 
@@ -390,7 +392,7 @@ a:hover {
   content: '';
   position: absolute;
   width: 70px;
-  height: 4px;
+  height: 3px;
   background-color: #febf10;
   bottom: 20px;
   left: 0;
@@ -575,22 +577,27 @@ a:hover {
 /* Prelaoder */
 
 #preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 9999;
-  overflow: hidden;
-  background: #1b1b1b;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background: #1b1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+
+#preloader::-webkit-scrollbar {
+    display: none;
 }
 
 #preloader img {
-    width: 10%;
-    height: 15%;
+    height: 25%;
 }
 
 /*#preloader:before {
@@ -768,7 +775,7 @@ a:hover {
 }
 
 .navbar-brand {
-    width: 96px;
+    width: 5%;
     margin-right: 0px;
 }
 
@@ -1273,7 +1280,7 @@ a:hover {
 }
 
 .card-footer-a .card-title-a {
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700;
   color: #fff;
@@ -1604,6 +1611,10 @@ a:hover {
 /*======================================
 //--//-->   AGENTS - CARD-D
 ======================================*/
+.card-box-d {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
 .card-box-d .card-overlay-hover {
     transition: all .2s ease-in-out;
     padding: 15px 40px 15px 35px;
@@ -1611,12 +1622,13 @@ a:hover {
 
 .card-box-d .title-d {
   transition: .3s ease-in-out;
-  font-size: 2rem;
-  font-weight: 600;
+  font-size: 1.2rem !important;
+  font-weight: 800;
   margin: 1rem 0;
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
   opacity: 0;
+  text-transform: uppercase;
 }
 
 .card-box-d .content-d {
@@ -1624,6 +1636,9 @@ a:hover {
   transition: .5s ease-in-out;
   -webkit-transform: translateY(-40px);
   transform: translateY(-40px);
+  color: #313131;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .card-box-d .info-agents {
@@ -1646,6 +1661,10 @@ a:hover {
   margin-right: 25px;
 }
 
+.card-box-d .card-overlay-hover {
+  padding: 20px 20px !important;
+}
+
 .card-box-d:hover .card-overlay-hover {
   background-color: #febf10;
   opacity: .9;
@@ -1660,14 +1679,15 @@ a:hover {
   transform: translateY(0);
 }
 
-/*------/ Agent Single /------*/
-
-.agent-info-box .socials-footer {
-  margin-top: 2rem;
+.card-box-footer-d .card-footer-btn-d {
+  color: #313131;
+  font-size: 15px;
+  font-weight: 600;
+  z-index: 9999;
 }
 
-.agent-info-box .socials-footer li {
-  margin-right: 1.5rem;
+.card-box-footer-d .btn-footer-d {
+  z-index: 1;
 }
 
 /*======================================
@@ -1739,9 +1759,19 @@ a:hover {
 }
 
 /*======================================
-//--//-->   TESTIMONIALS
+//--//-->   CONTACTS
 ======================================*/
 
+.contact-map {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+.contact-map iframe {
+  border-radius: 10px;
+}
+/*======================================
+//--//-->   TESTIMONIALS
+======================================*/
 .testimonials-box {
   padding: 1rem 0;
 }

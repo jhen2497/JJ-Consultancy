@@ -56,20 +56,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Properties
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Property 1</a>
-                                <a class="dropdown-item" href="#">Property 2</a>
-                                <a class="dropdown-item" href="#">Property 3</a>
-                                <a class="dropdown-item" href="#">Property 4</a>
-                            </div>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Property Locator</a>
+                            <a class="nav-link" href="Properties.aspx">Properties </a>
                         </li>
+                        <%--<li class="nav-item">
+                            <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
+                        </li>--%>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
                         </li>
@@ -83,13 +75,13 @@
         <section class="intro-single">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right" data-aos-duration="500">
-                        <div class="title-single-box" data-aos="zoom-in-right" data-aos-duration="500">
+                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right">
+                        <div class="title-single-box">
                             <h1 class="title-single">About Us</h1>
                         </div>
                     </div>
 
-                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left" data-aos-duration="500">
+                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left">
                         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
@@ -218,7 +210,7 @@
         <section class="section-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="widget-a">
                             <div class="w-header-a">
                                 <img src="img/JJConsultant_Logo_Gold.png" />
@@ -231,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="icon-box section-b2">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-paper-plane"></span>
@@ -247,14 +239,34 @@
                                     </p>
                                     <p class="mb-1">
                                         Phone:
-                                                <span class="color-a">+63 282 949360</span>
+                                                <span class="color-a">+63 287 654321</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-3">
+                        <div class="icon-box section-b2">
+                            <div class="icon-box-icon">
+                                <span class="ion-ios-pin"></span>
+                            </div>
+                            <div class="icon-box-content table-cell">
+                                <div class="icon-box-title">
+                                    <h4 class="icon-title">Address</h4>
+                                </div>
+                                <div class="icon-box-content">
+                                    <p class="mb-1">
+                                        Level 24, One Bonifacio High Street,
+                                        Bonifacio Global City,
+                                        Metro Manila Philippines
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="icon-box">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-redo"></span>
@@ -306,7 +318,7 @@
                                     <a href="Services.aspx">Services</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Properties</a>
+                                    <a href="Properties.aspx">Properties</a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="ContactUs.aspx">Contact</a>
@@ -329,7 +341,7 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <div id="preloader">
-            <img src="img/JJC-Logo-Animation.gif" />
+            <img src="img/JJC-Logo-Animation-2.gif" />
         </div>
     </form>
 

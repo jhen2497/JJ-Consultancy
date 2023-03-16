@@ -31,6 +31,10 @@
 }
 
 @media (min-width: 768px) {
+  .card-box-a:hover .card-overlay-a-content {
+    bottom: 60px;
+  }
+
   .link-a {
     font-size: .9rem;
   }
@@ -183,12 +187,6 @@
   }
 }
 
-@media (min-width: 768px) and (min-width: 768px) {
-  .card-box-a:hover .card-overlay-a-content {
-    bottom: 60px;
-  }
-}
-
 @media (min-width: 768px) and (min-width: 992px) {
   .card-box-a:hover .card-overlay-a-content {
     bottom: 64px;
@@ -290,15 +288,17 @@
     font-size: 2rem;
     margin: 1rem 0;
   }
-  .container {
-      max-width: 100%;
-  }
 }
 
+@media (min-width: 1200px) and (max-width:1440px) {
+  .container {
+    max-width: 1300px;
+  }
+}
 @media (min-width: 2560px) {
-    .container {
-        max-width: 100% !important;
-    }
+  .container {
+    max-width: 100% !important;
+  }
 }
 
 @media (max-width: 991px) {

@@ -95,7 +95,7 @@
                     </div>
                     <div class="col-sm-12">
                         <div class="row justify-content-center">
-                            <div class="col-md-12">
+                            <div class="col-md-7">
                                 <div class="form-a contactForm" data-aos="zoom-in-right">
                                     <div class="row">
                                         <div class="col-md-6 mb-3">
@@ -124,7 +124,14 @@
                                     </div>
                                 </div>
                             </div>
-
+                            <div class="col-md-5">
+                                <div class="contact-map box">
+                                    <div id="map" class="contact-map">
+                                        <iframe src="https://maps.google.com/maps?q=Servcorp%20-%20Philippine%20Stock%20Exchange%20Tower,%20BGC&t=&z=19&ie=UTF8&iwloc=&output=embed"
+                                            width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -136,7 +143,7 @@
         <section class="section-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="widget-a">
                             <div class="w-header-a">
                                 <img src="img/JJConsultant_Logo_Gold.png" />
@@ -149,7 +156,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+
+                    <div class="col-sm-12 col-md-3">
                         <div class="icon-box section-b2">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-paper-plane"></span>
@@ -165,14 +173,35 @@
                                     </p>
                                     <p class="mb-1">
                                         Phone:
-                                                <span class="color-a">+63 282 949360</span>
+                                                <span class="color-a">+63 287 654321</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-3">
+                        <div class="icon-box section-b2">
+                            <div class="icon-box-icon">
+                                <span class="ion-ios-pin"></span>
+                            </div>
+                            <div class="icon-box-content table-cell">
+                                <div class="icon-box-title">
+                                    <h4 class="icon-title">Address</h4>
+                                </div>
+                                <div class="icon-box-content">
+                                    <p class="mb-1">
+                                        Level 24, One Bonifacio High Street,
+                                        Bonifacio Global City,
+                                        Metro Manila Philippines
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4">
+
+                    <div class="col-sm-12 col-md-3">
                         <div class="icon-box">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-redo"></span>

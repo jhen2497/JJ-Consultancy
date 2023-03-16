@@ -4,10 +4,14 @@
   // Preloader
   $(window).on('load', function () {
     if ($('#preloader').length) {
-      $('#preloader').delay(1000).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
+      $('#preloader').delay(3000).fadeOut('slow', function () {
+		  $(this).remove();
+		  $('body').css("overflow-y", "scroll");
+	  });
+	  }
+	  setTimeout(function () {
+		  $('body').css("overflow", "hidden");
+	  }, 30);
   });
 
   
@@ -33,8 +37,8 @@
 	var navHeight = nav.outerHeight();
 
 	/*--/ ScrollReveal /Easy scroll animations for web and mobile browsers /--*/
-	//window.sr = ScrollReveal();
-	//sr.reveal('.foo', { duration: 1000, delay: 15 });
+	window.sr = ScrollReveal();
+	sr.reveal('.foo', { duration: 1000, delay: 15 });
 
 	/*--/ Carousel owl /--*/
 	$('#carousel').owlCarousel({

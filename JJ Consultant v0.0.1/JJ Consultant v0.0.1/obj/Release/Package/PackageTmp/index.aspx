@@ -57,20 +57,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">Properties
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Property 1</a>
-                                <a class="dropdown-item" href="#">Property 2</a>
-                                <a class="dropdown-item" href="#">Property 3</a>
-                                <a class="dropdown-item" href="#">Property 4</a>
-                            </div>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Property Locator</a>
+                            <a class="nav-link" href="Properties.aspx">Properties </a>
                         </li>
+                        <%--<li class="nav-item">
+                            <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
+                        </li>--%>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
                         </li>
@@ -88,9 +80,9 @@
                     <div class="intro-content display-table">
                         <div class="table-cell">
                             <div class="container">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-lg-8">
-                                        <div class="intro-body">
+                                        <div class="intro-body text-center">
                                             <h5 class="intro-title mb-4">
                                                 <span class="color-b">Lorem ipsum </span>
                                                 <br>
@@ -107,9 +99,9 @@
                     <div class="intro-content display-table">
                         <div class="table-cell">
                             <div class="container">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-lg-8">
-                                        <div class="intro-body">
+                                        <div class="intro-body text-center">
                                             <h5 class="intro-title mb-4">
                                                 <span class="color-b">Lorem ipsum </span>
                                                 <br>
@@ -126,9 +118,9 @@
                     <div class="intro-content display-table">
                         <div class="table-cell">
                             <div class="container">
-                                <div class="row">
+                                <div class="row justify-content-center">
                                     <div class="col-lg-8">
-                                        <div class="intro-body">
+                                        <div class="intro-body text-center">
                                             <h5 class="intro-title mb-4">
                                                 <span class="color-b">Lorem ipsum </span>
                                                 <br>
@@ -145,10 +137,10 @@
         <!--/ Carousel end /-->
 
         <!--/ About Us Star /-->
-        <section class="section-aboutUs" id="about-us">
+        <section class="section-about" id="about-us" style="background-image: url('../img/source/bg-2.jpg');">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
+                <div class="row justify-content-center">
+                    <div class="col-md-9">
                         <div class="title-wrap d-flex justify-content-center">
                             <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
                                 <h2 class="title-a">About JJ Consultancy</h2>
@@ -239,9 +231,9 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
                             <div class="img-box-b">
                                 <img src="img/services/investments.jpg" alt="" class="img-b img-fluid">
                             </div>
@@ -286,127 +278,105 @@
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up" data-aos-duration="500">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/properties/property-1.jpg" alt="" class="img-a img-fluid">
+
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="500">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-1.jpg" alt="" class="img-d img-fluid">
                             </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-footer-a">
-                                        <div class="card-info">
-                                            <h2 class="card-title-a">Lorem ipsum dolor sit amet
-                                            </h2>
-                                            <a href="#" class="price-a">Read More</a>
-                                        </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">Lorem Ipsum Lectus Nibh
+                                        </h3>
                                     </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, 
+                                        purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/properties/property-2.jpg" alt="" class="img-a img-fluid">
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1000">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-4.jpg" alt="" class="img-d img-fluid">
                             </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-footer-a">
-                                        <div class="card-info">
-                                            <h2 class="card-title-a">Lorem ipsum dolor sit amet
-                                            </h2>
-                                            <a href="#" class="price-a">Read More</a>
-                                        </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">Lorem Ipsum Lectus Nibh
+                                        </h3>
                                     </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                                        Proin pharetra nonummy pede. Mauris et orci.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/properties/property-3.jpg" alt="" class="img-a img-fluid">
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="1500">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-5.jpg" alt="" class="img-d img-fluid">
                             </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-footer-a">
-                                        <div class="card-info">
-                                            <h2 class="card-title-a">Lorem ipsum dolor sit amet
-                                            </h2>
-                                            <a href="#" class="price-a">Read More</a>
-                                        </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">Lorem Ipsum Lectus Nibh
+                                        </h3>
                                     </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+                                        Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <div class="card-box-d card-shadow news-box">
+                            <div class="card-img-d">
+                                <img src="img/properties/property-6.jpg" alt="" class="img-d img-fluid">
+                            </div>
+                            <div class="card-overlay card-overlay-hover">
+                                <div class="card-header-d">
+                                    <div class="card-title-d align-self-center">
+                                        <h3 class="title-d">Lorem Ipsum Lectus Nibh
+                                        </h3>
+                                    </div>
+                                </div>
+                                <div class="card-body-d">
+                                    <p class="content-d color-text-a">
+                                        Sed porttitor lectus nibh, Cras ultricies ligula sed magna dictum porta two.
+                                        Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+                                        Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <div class="row justify-content-center">
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up" data-aos-duration="500">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/properties/property-6.jpg" alt="" class="img-a img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-footer-a">
-                                        <div class="card-info">
-                                            <h2 class="card-title-a">Lorem ipsum dolor sit amet
-                                            </h2>
-                                            <a href="#" class="price-a">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/properties/property-4.jpg" alt="" class="img-a img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-footer-a">
-                                        <div class="card-info">
-                                            <h2 class="card-title-a">Lorem ipsum dolor sit amet
-                                            </h2>
-                                            <a href="#" class="price-a">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up" data-aos-duration="1500">
-                        <div class="card-box-a card-shadow">
-                            <div class="img-box-a">
-                                <img src="img/properties/property-5.jpg" alt="" class="img-a img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-overlay-a-content">
-                                    <div class="card-footer-a">
-                                        <div class="card-info">
-                                            <h2 class="card-title-a">Lorem ipsum dolor sit amet
-                                            </h2>
-                                            <a href="#" class="price-a">Read More</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    
-                </div>
 
                 <div class="row text-center pt-5">
                     <div class="col-lg-12 col-md-12">
-                        <a href="#" class="btn-see-all" data-aos="fade-up" data-aos-duration="2000">View More</a>
+                        <a href="Properties.aspx" class="btn-see-all" data-aos="fade-up" data-aos-duration="2000">View More</a>
                     </div>
                 </div>
             </div>
@@ -465,7 +435,27 @@
                                     </p>
                                     <p class="mb-1">
                                         Phone:
-                                                <span class="color-a">+63 282 949360</span>
+                                                <span class="color-a">+63 287 654321</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-3">
+                        <div class="icon-box section-b2">
+                            <div class="icon-box-icon">
+                                <span class="ion-ios-pin"></span>
+                            </div>
+                            <div class="icon-box-content table-cell">
+                                <div class="icon-box-title">
+                                    <h4 class="icon-title">Address</h4>
+                                </div>
+                                <div class="icon-box-content">
+                                    <p class="mb-1">
+                                        Level 24, One Bonifacio High Street,
+                                        Bonifacio Global City,
+                                        Metro Manila Philippines
                                     </p>
                                 </div>
                             </div>
@@ -524,7 +514,7 @@
                                     <a href="Services.aspx">Services</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">Properties</a>
+                                    <a href="Properties.aspx">Properties</a>
                                 </li>
                                 <li class="list-inline-item">
                                     <a href="ContactUs.aspx">Contact</a>
@@ -547,7 +537,7 @@
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
         <div id="preloader">
-            <img src="img/JJC-Logo-Animation.gif" />
+            <img src="img/JJC-Logo-Animation-2.gif" />
         </div>
     </form>
 

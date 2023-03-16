@@ -210,7 +210,7 @@
         <section class="section-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="widget-a">
                             <div class="w-header-a">
                                 <img src="img/JJConsultant_Logo_Gold.png" />
@@ -223,7 +223,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="icon-box section-b2">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-paper-plane"></span>
@@ -239,14 +239,34 @@
                                     </p>
                                     <p class="mb-1">
                                         Phone:
-                                                <span class="color-a">+63 282 949360</span>
+                                                <span class="color-a">+63 287 654321</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-3">
+                        <div class="icon-box section-b2">
+                            <div class="icon-box-icon">
+                                <span class="ion-ios-pin"></span>
+                            </div>
+                            <div class="icon-box-content table-cell">
+                                <div class="icon-box-title">
+                                    <h4 class="icon-title">Address</h4>
+                                </div>
+                                <div class="icon-box-content">
+                                    <p class="mb-1">
+                                        Level 24, One Bonifacio High Street,
+                                        Bonifacio Global City,
+                                        Metro Manila Philippines
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-3">
                         <div class="icon-box">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-redo"></span>

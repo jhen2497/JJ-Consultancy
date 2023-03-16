@@ -1,4 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Services.aspx.vb" Inherits="JJ_Consultant_v0._0._1.Services" %>
+﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="PropertyLocator.aspx.vb" Inherits="JJ_Consultant_v0._0._1.PropertyLocator" %>
 
 <!DOCTYPE html>
 
@@ -54,13 +54,13 @@
                             <a class="nav-link" href="AboutUs.aspx">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="Services.aspx">Services</a>
+                            <a class="nav-link" href="Services.aspx">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Properties.aspx">Properties </a>
                         </li>
                         <%--<li class="nav-item">
-                            <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
+                            <a class="nav-link active" href="PropertyLocator.aspx">Property Locator</a>
                         </li>--%>
                         <li class="nav-item">
                             <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
@@ -75,19 +75,19 @@
         <section class="intro-single">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right" data-aos-duration="500">
-                        <div class="title-single-box" data-aos="zoom-in-right" data-aos-duration="500">
-                            <h1 class="title-single">Services</h1>
+                    <div class="col-md-12 col-lg-8" data-aos="zoom-in-right">
+                        <div class="title-single-box">
+                            <h1 class="title-single">Property Locator</h1>
                         </div>
                     </div>
-                    
-                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left" data-aos-duration="500">
+
+                    <div class="col-md-12 col-lg-4" data-aos="zoom-in-left">
                         <nav aria-label="breadcrumb" class="breadcrumb-box d-flex justify-content-lg-end">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item">
                                     <a href="index.aspx">Home</a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">Services
+                                <li class="breadcrumb-item active" aria-current="page">Property Locator
                                 </li>
                             </ol>
                         </nav>
@@ -96,163 +96,6 @@
             </div>
         </section>
         <!--/ Intro Single End /-->
-
-        <!--/ Services Star /-->
-        <section class="section-services">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="500">
-                            <div class="img-box-b">
-                                <img src="img/services/research-consultancy.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Search and Consultancy</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                            Mauris blandit aliquet elit, eget tincidunt
-                                            nibh pulvinar a.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="img-box-b">
-                                <img src="img/services/project-sell.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Project Selling</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Nulla porttitor accumsan tincidunt. 
-                                            Curabitur aliquet quam id dui posuere blandit. 
-                                            Mauris blandit aliquet elit, eget tincidunt
-                                            nibh pulvinar a.
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
-                            <div class="img-box-b">
-                                <img src="img/services/investments.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Investments</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="500">
-                            <div class="img-box-b">
-                                <img src="img/services/tenant-repre.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Tenant Representation</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
-                            <div class="img-box-b">
-                                <img src="img/services/landlord-representation.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Landlord Representation</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
-                            <div class="img-box-b">
-                                <img src="img/services/property-eval.jpg" alt="" class="img-b img-fluid">
-                            </div>
-                            <div class="card-overlay">
-                                <div class="card-header-b">
-                                    <div class="card-title-b">
-                                        <h2 class="title-2">Property Valuation</h2>
-                                    </div>
-                                    <div class="content-c">
-                                        <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!--/ Services End /-->
 
         <!--/ Contact Star /-->
         <section class="section-contact" id="contact-us">
@@ -277,7 +120,7 @@
         <section class="section-footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-md-4">
                         <div class="widget-a">
                             <div class="w-header-a">
                                 <img src="img/JJConsultant_Logo_Gold.png" />
@@ -290,7 +133,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-md-4">
                         <div class="icon-box section-b2">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-paper-plane"></span>
@@ -306,34 +149,14 @@
                                     </p>
                                     <p class="mb-1">
                                         Phone:
-                                                <span class="color-a">+63 287 654321</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-12 col-md-3">
-                        <div class="icon-box section-b2">
-                            <div class="icon-box-icon">
-                                <span class="ion-ios-pin"></span>
-                            </div>
-                            <div class="icon-box-content table-cell">
-                                <div class="icon-box-title">
-                                    <h4 class="icon-title">Address</h4>
-                                </div>
-                                <div class="icon-box-content">
-                                    <p class="mb-1">
-                                        Level 24, One Bonifacio High Street,
-                                        Bonifacio Global City,
-                                        Metro Manila Philippines
+                                                <span class="color-a">+63 282 949360</span>
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-sm-12 col-md-3">
+                    <div class="col-sm-12 col-md-4">
                         <div class="icon-box">
                             <div class="icon-box-icon">
                                 <span class="ion-ios-redo"></span>
@@ -411,7 +234,7 @@
             <img src="img/JJC-Logo-Animation-2.gif" />
         </div>
     </form>
-
+    
     <!-- JavaScript Plugins -->
     <script src="plugins/jquery/jquery.min.js"></script>
     <script src="plugins/jquery/jquery-migrate.min.js"></script>

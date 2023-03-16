@@ -5,9 +5,13 @@
   $(window).on('load', function () {
     if ($('#preloader').length) {
       $('#preloader').delay(3000).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
+		  $(this).remove();
+		  $('body').css("overflow-y", "scroll");
+	  });
+	  }
+	  setTimeout(function () {
+		  $('body').css("overflow", "hidden");
+	  }, 30);
   });
 
   
