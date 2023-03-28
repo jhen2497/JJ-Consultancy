@@ -149,7 +149,7 @@
                                     </p>
                                     <p class="mb-1">
                                         Phone:
-                                                <span class="color-a">+63 282 949360</span>
+                                                <span class="color-a">+63 285 385127</span>
                                     </p>
                                 </div>
                             </div>
