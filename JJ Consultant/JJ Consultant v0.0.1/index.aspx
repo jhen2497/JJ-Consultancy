@@ -49,22 +49,26 @@
                 <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" href="index.aspx">Home</a>
+                            <%--<a class="nav-link active" href="index.aspx">Home</a>--%>
+                            <a class="nav-link" href="#home">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <%--<li class="nav-item">
                             <a class="nav-link" href="AboutUs.aspx">About Us</a>
+                        </li>--%>
+                        <li class="nav-item">
+                            <%--<a class="nav-link" href="Services.aspx">Services</a>--%>
+                            <a class="nav-link" href="#service">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Services.aspx">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Properties.aspx">Properties </a>
+                            <%--<a class="nav-link" href="Properties.aspx">Properties </a>--%>
+                            <a class="nav-link" href="#properties">Properties </a>
                         </li>
                         <%--<li class="nav-item">
                             <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
                         </li>--%>
                         <li class="nav-item">
-                            <a class="nav-link" href="ContactUs.aspx">Contact Us</a>
+                            <%--<a class="nav-link" href="ContactUs.aspx">Contact Us</a>--%>
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
                         </li>
                     </ul>
                 </div>
@@ -142,23 +146,20 @@
                 <div class="row justify-content-center">
                     <div class="col-md-9">
                         <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
+                            <div class="title-box" data-aos="zoom-in-up">
                                 <h2 class="title-a">About JJ Consultancy</h2>
                             </div>
                         </div>
-                        <div class="about-description" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <div class="about-description" data-aos="zoom-in-up">
                             <p>
-                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
-                                Maecenas porttitor congue massa. Fusce posuere, magna sed 
-                                pulvinar ultricies, purus lectus malesuada libero, sit 
-                                amet commodo magna eros quis urna.
-                                Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.
-                                Pellentesque habitant morbi tristique senectus et netus et 
-                                malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.
-                                Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.
-                                Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
-                                Mauris eget neque at sem venenatis eleifend. Ut nonummy.
-
+                                <span>JJ Consultancy Inc (JJCI)</span> is a private real state consultancy
+                                and brokerage firm operating in the Philippines. JJCI provides a wide variety
+                                of consulting services related to the real state industry.
+                            </p>
+                            <p>
+                                We help client in facilitating the selling, buying and renting of their properties,
+                                to help them gain the best value. Our Team of experienced professional utilize the lastest
+                                technology, up-to-date information and local expertise to provide the best advise to our customers.
                             </p>
                         </div>
                     </div>
@@ -173,32 +174,26 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="title-wrap d-flex justify-content-center">
-                            <div class="title-box" data-aos="zoom-in-up" data-aos-duration="500">
+                            <div class="title-box" data-aos="zoom-in-up">
                                 <h2 class="title-a">Our Services</h2>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="500">
+                        <div class="card-box-b card-shadow news-box" data-aos="zoom-in">
                             <div class="img-box-b">
                                 <img src="img/services/research-consultancy.jpg" alt="" class="img-b img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-header-b">
                                     <div class="card-title-b">
-                                        <h2 class="title-2">Search and Consultancy</h2>
+                                        <h2 class="title-2">Real Estate Brokerage</h2>
                                     </div>
                                     <div class="content-c">
                                         <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
-                                            Mauris blandit aliquet elit, eget tincidunt
-                                            nibh pulvinar a.
+                                            We assist you in buying or selling your desired property at the best value.
                                         </p>
                                     </div>
                                 </div>
@@ -207,24 +202,44 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="card-box-b card-shadow news-box" data-aos="zoom-in"">
                             <div class="img-box-b">
                                 <img src="img/services/project-sell.jpg" alt="" class="img-b img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-header-b">
                                     <div class="card-title-b">
-                                        <h2 class="title-2">Project Selling</h2>
+                                        <h2 class="title-2">Title Registration/Transfer</h2>
                                     </div>
                                     <div class="content-c">
                                         <p>
-                                            Nulla porttitor accumsan tincidunt. 
-                                            Curabitur aliquet quam id dui posuere blandit. 
-                                            Mauris blandit aliquet elit, eget tincidunt
-                                            nibh pulvinar a.
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
+                                            Our dynamic team of professionals will guide and assist you for a smooth
+                                            process and organized manner.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center">
+                    
+                    <div class="col-md-4">
+                        <div class="card-box-b card-shadow news-box" data-aos="zoom-in">
+                            <div class="img-box-b">
+                                <img src="img/services/investments.jpg" alt="" class="img-b img-fluid">
+                            </div>
+                            <div class="card-overlay">
+                                <div class="card-header-b">
+                                    <div class="card-title-b">
+                                        <h2 class="title-2">Research and Consultancy</h2>
+                                    </div>
+                                    <div class="content-c">
+                                        <p>
+                                            We do intensive market, industry research and analysis to cater to your
+                                            needs. We conduct feasibility studies to provide you the best information/data
+                                            you seek.
                                         </p>
                                     </div>
                                 </div>
@@ -233,22 +248,19 @@
                     </div>
 
                     <div class="col-md-4">
-                        <div class="card-box-b card-shadow news-box" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="card-box-b card-shadow news-box" data-aos="zoom-in">
                             <div class="img-box-b">
                                 <img src="img/services/investments.jpg" alt="" class="img-b img-fluid">
                             </div>
                             <div class="card-overlay">
                                 <div class="card-header-b">
                                     <div class="card-title-b">
-                                        <h2 class="title-2">Investments</h2>
+                                        <h2 class="title-2">Asset/Property Management</h2>
                                     </div>
                                     <div class="content-c">
                                         <p>
-                                            Sed porttitor lectus nibh. 
-                                            Cras ultricies ligula sed magna dictum porta. 
-                                            Praesent sapien massa,
-                                            convallis a pellentesque
-                                            nec, egestas non nisi.
+                                            We manage your rental portfolio may it be commercial or residential estate
+                                            to achieve your desired results.
                                         </p>
                                     </div>
                                 </div>
@@ -257,8 +269,8 @@
                     </div>
                 </div>
                 <div class="row text-center pt-5">
-                    <div class="col-lg-12 col-md-12">
-                        <a href="Services.aspx" class="btn-see-all" data-aos="fade-up" data-aos-duration="2000">View More</a>
+                    <div class="col-lg-12 col-md-12" data-aos="zoom-in-up">
+                        <a href="Services.aspx" class="btn-see-all">View More</a>
                     </div>
                 </div>
             </div>
@@ -394,8 +406,34 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-12 d-flex justify-content-center">
-                        <a href="ContactUs.aspx" type="button" class="btn btn-a" data-aos="zoom-in-up" data-aos-duration="500">Contact Us</a>
+                    <div class="col-md-7">
+                        <div class="form-a contactForm" data-aos="zoom-in-right">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="url" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <div class="form-group">
+                                        <textarea name="message" class="form-control" name="message" cols="45" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 d-flex justify-content-center">
+                                    <button type="submit" class="btn btn-a">Send Message</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
