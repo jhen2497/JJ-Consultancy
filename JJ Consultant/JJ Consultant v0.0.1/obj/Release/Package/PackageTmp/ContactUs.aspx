@@ -48,16 +48,16 @@
                 <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.aspx">Home</a>
+                            <a class="nav-link" href="index.aspx#home">Home</a>
                         </li>
-                        <li class="nav-item">
+                        <%--<li class="nav-item">
                             <a class="nav-link" href="AboutUs.aspx">About Us</a>
+                        </li>--%>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.aspx#service">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Services.aspx">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Properties.aspx">Properties </a>
+                            <a class="nav-link" href="index.aspx#properties">Properties </a>
                         </li>
                         <%--<li class="nav-item">
                             <a class="nav-link" href="PropertyLocator.aspx">Property Locator</a>
@@ -87,8 +87,7 @@
                                 <li class="breadcrumb-item">
                                     <a href="index.aspx">Home</a>
                                 </li>
-                                <li class="breadcrumb-item active" aria-current="page">
-                                    Contact
+                                <li class="breadcrumb-item active" aria-current="page">Contact
                                 </li>
                             </ol>
                         </nav>
@@ -124,11 +123,73 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-5">
-                                <div class="contact-map box">
-                                    <div id="map" class="contact-map">
-                                        <iframe src="https://maps.google.com/maps?q=Servcorp%20-%20Philippine%20Stock%20Exchange%20Tower,%20BGC&t=&z=19&ie=UTF8&iwloc=&output=embed"
-                                            width="100%" height="450" frameborder="0" style="border: 0" allowfullscreen></iframe>
+                            <div class="col-md-5 section-md-t3" data-aos="zoom-in-left">
+                                <div class="icon-box section-b2">
+                                    <div class="icon-box-icon">
+                                        <span class="ion-ios-paper-plane"></span>
+                                    </div>
+                                    <div class="icon-box-content table-cell">
+                                        <div class="icon-box-title">
+                                            <h4 class="icon-title">Say Hello</h4>
+                                        </div>
+                                        <div class="icon-box-content">
+                                            <p class="mb-1">
+                                                Email:
+                                                <span class="color-a">info@jjconsultancy.ph</span>
+                                            </p>
+                                            <p class="mb-1">
+                                                Phone:
+                                                <span class="color-a">+63 285 385127</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon-box section-b2">
+                                    <div class="icon-box-icon">
+                                        <span class="ion-ios-pin"></span>
+                                    </div>
+                                    <div class="icon-box-content table-cell">
+                                        <div class="icon-box-title">
+                                            <h4 class="icon-title">Find us in</h4>
+                                        </div>
+                                        <div class="icon-box-content">
+                                            <p class="mb-1">
+                                                Level 24, One Bonifacio High Street,
+                                        Bonifacio Global City,
+                                        Metro Manila Philippines
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="icon-box">
+                                    <div class="icon-box-icon">
+                                        <span class="ion-ios-redo"></span>
+                                    </div>
+                                    <div class="icon-box-content table-cell">
+                                        <div class="icon-box-title">
+                                            <h4 class="icon-title">Social networks</h4>
+                                        </div>
+                                        <div class="icon-box-content">
+                                            <div class="socials-footer">
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="link-one">
+                                                            <i class="fa-brands fa-2x fa-facebook"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="link-one">
+                                                            <i class="fa-brands fa-2x fa-square-instagram"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#" class="link-one">
+                                                            <i class="fa-brands fa-2x fa-tiktok"></i>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -150,8 +211,8 @@
                             </div>
                             <div class="w-body-a">
                                 <p class="w-text-a color-text-a">
-                                    Enim minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip exea commodo consequat duis
-                                    sed aute irure.
+                                    <span style="color: #febf10; font-weight: 600;">JJ Consultancy Inc (JJCI)</span> is a private real state consultancy
+                                and brokerage firm operating in the Philippines.
                                 </p>
                             </div>
                         </div>
@@ -179,7 +240,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-sm-12 col-md-3">
                         <div class="icon-box section-b2">
                             <div class="icon-box-icon">

@@ -3,17 +3,18 @@
 
   // Preloader
   $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(3000).fadeOut('slow', function () {
-		  $(this).remove();
-		  $('body').css("overflow-y", "scroll");
-	  });
+	  if ($('#preloader').length) {
+		  $('#preloader').delay(3000).fadeOut('slow', function () {
+			  $(this).remove();
+			  $('body').css("overflow-y", "scroll");
+		  });
 	  }
 	  setTimeout(function () {
 		  $('body').css("overflow", "hidden");
 	  }, 30);
   });
 
+	
   
   AOS.init({
 	duration: 1000,
@@ -92,7 +93,23 @@
 			$('.scrolltop-mf').fadeOut(1000, "easeInOutExpo");
 		}
 	});
+	// Navbar Highlight
+	const navigation_link = document.querySelectorAll(".nav-link");
+	const sec = document.querySelectorAll("section");
 
+	function activeMenu() {
+		let len = sec.length;
+		while (--len && window.scrollY + 97 < sec[len].offsetTop) { }
+		navigation_link.forEach(ltx => ltx.classList.remove("active"));
+		navigation_link[len].classList.add("active");
+	}
+	activeMenu();
+	window.addEventListener("scroll", activeMenu);
+
+	//Gallery Filters
+	if ($('.filter-list').length) {
+		$('.filter-list').mixItUp({});
+	}
 	/*--/ Property owl /--*/
 	$('#property-carousel').owlCarousel({
 		loop: true,

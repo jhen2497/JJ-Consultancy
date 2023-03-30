@@ -373,6 +373,10 @@
   .card-body-c {
     padding: 0;
   }
+
+  .section-contact .contact-information {
+      display: none;
+  }
 }
 
 @media (max-width: 575px) {
@@ -398,7 +402,7 @@
       margin-bottom: 0rem !important;
   }
   .card-header-b .title-2 {
-      font-size: 1.1rem !important;
+      font-size: 1.03rem !important;
   }
   .section-footer .widget-a .w-header-a {
       width: 15%;

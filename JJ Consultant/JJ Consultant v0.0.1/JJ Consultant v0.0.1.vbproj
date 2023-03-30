@@ -210,6 +210,7 @@
     <Content Include="plugins\ionicons\fonts\ionicons.svg" />
     <Content Include="plugins\jquery\jquery-migrate.min.js" />
     <Content Include="plugins\jquery\jquery.min.js" />
+    <Content Include="plugins\mixitup\mixitup.js" />
     <Content Include="plugins\owlcarousel\assets\ajax-loader.gif" />
     <Content Include="plugins\owlcarousel\assets\owl.carousel.css" />
     <Content Include="plugins\owlcarousel\assets\owl.carousel.min.css" />
