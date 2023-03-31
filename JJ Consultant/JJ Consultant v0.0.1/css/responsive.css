@@ -419,4 +419,11 @@
   #preloader img {
       height: 20%;
   }
+  .section-property .gallery-item {
+      width: 50%;
+      height: 100%;
+  }
+  .section-property .card-header-b .title-2 {
+      font-size: 0.75rem !important;
+  }
 }
