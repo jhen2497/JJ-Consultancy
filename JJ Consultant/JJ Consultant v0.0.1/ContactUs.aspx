@@ -78,7 +78,7 @@
                     <div class="col-md-12 col-lg-8" data-aos="zoom-in-right">
                         <div class="title-single-box">
                             <h1 class="title-single">Contact US</h1>
-                            <span class="color-text-a">Aut voluptas consequatur unde sed omnis ex placeat quis eos. Aut natus officia corrupti qui autem fugit consectetur quo. Et ipsum eveniet laboriosam voluptas beatae possimus qui ducimus. Et voluptatem deleniti. Voluptatum voluptatibus amet. Et esse sed omnis inventore hic culpa.</span>
+                            <span class="color-text-a">We love to hear from you! Send us a message and we'll get back to you soon.</span>
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-4" data-aos="zoom-in-left">
@@ -141,6 +141,28 @@
                                                 Phone:
                                                 <span class="color-a">+63 285 385127</span>
                                             </p>
+                                            <br />
+                                            <h6 class="icon-title">OPEN</h6>
+                                            <p class="mb-1">
+                                                Monday:
+                                                        <span class="color-a">8:30 am - 5:30 pm</span>
+                                            </p>
+                                            <p class="mb-1">
+                                                Tuesda:
+                                                        <span class="color-a">8:30 am - 5:30 pm</span>
+                                            </p>
+                                            <p class="mb-1">
+                                                Wednesday:
+                                                        <span class="color-a">8:30 am - 5:30 pm</span>
+                                            </p>
+                                            <p class="mb-1">
+                                                Thursday:
+                                                        <span class="color-a">8:30 am - 5:30 pm</span>
+                                            </p>
+                                            <p class="mb-1">
+                                                Friday:
+                                                        <span class="color-a">8:30 am - 5:30 pm</span>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -158,10 +180,14 @@
                                         Bonifacio Global City,
                                         Metro Manila Philippines
                                             </p>
+                                    <br />
+                                    <a target="_blank" href="https://www.facebook.com/jjconsultancyph" class="link-one">
+                                                    <i class="fa-brands fa-2x fa-facebook"></i>
+                                                </a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="icon-box">
+                                <%--<div class="icon-box">
                                     <div class="icon-box-icon">
                                         <span class="ion-ios-redo"></span>
                                     </div>
@@ -191,7 +217,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div>--%>
                             </div>
                         </div>
                     </div>
@@ -275,11 +301,11 @@
                                     <div class="socials-footer">
                                         <ul class="list-inline">
                                             <li class="list-inline-item">
-                                                <a href="#" class="link-one">
+                                                <a target="_blank" href="https://www.facebook.com/jjconsultancyph" class="link-one">
                                                     <i class="fa-brands fa-2x fa-facebook"></i>
                                                 </a>
                                             </li>
-                                            <li class="list-inline-item">
+                                            <%--<li class="list-inline-item">
                                                 <a href="#" class="link-one">
                                                     <i class="fa-brands fa-2x fa-square-instagram"></i>
                                                 </a>
@@ -288,7 +314,7 @@
                                                 <a href="#" class="link-one">
                                                     <i class="fa-brands fa-2x fa-tiktok"></i>
                                                 </a>
-                                            </li>
+                                            </li>--%>
                                         </ul>
                                     </div>
                                 </div>
@@ -303,7 +329,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="nav-footer">
-                            <ul class="list-inline">
+                           <ul class="list-inline">
                                 <li class="list-inline-item">
                                     <a href="#">Home</a>
                                 </li>

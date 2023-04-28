@@ -249,7 +249,7 @@
   }
 
   .card-header-b .title-2 {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
   }
 
   .card-header-b .date-b {
@@ -418,5 +418,12 @@
   }
   #preloader img {
       height: 20%;
+  }
+  .section-property .gallery-item {
+      width: 50%;
+      height: 100%;
+  }
+  .section-property .card-header-b .title-2 {
+      font-size: 0.75rem !important;
   }
 }

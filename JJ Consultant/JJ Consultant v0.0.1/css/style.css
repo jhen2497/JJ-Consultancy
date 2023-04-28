@@ -300,17 +300,6 @@ a:hover {
     padding-top: 6rem;
     padding-bottom: 2rem;
 }
-.section-property .card-box-b .title-2:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 65px;
-    margin: auto;
-    width: 100px;
-    height: 1px;
-    background: #febf10;
-}
 .section-property .breadcrumb-item::before {
     display: inline-block;
     padding-right: 0.5rem;
@@ -1445,6 +1434,15 @@ a:hover {
 .card-box-b {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  height: 100%;
+}
+
+.card-box-b .img-box-b {
+    height: 100%;
+}
+
+.card-box-b .img-box-b img {
+    height: 100%;
 }
 
 .card-box-b.card-shadow:before {
@@ -1473,7 +1471,18 @@ a:hover {
     margin-bottom: 10px;
     min-height: 40px;
 }
-.card-box-b .title-2:before {
+.card-box-b .card-title-b:after{
+  content: '';
+  position: relative;
+  top: 5px;
+  margin: auto;
+  width: 100px;
+  height: 1px;
+  background: #febf10;
+  display: flex;
+  vertical-align: middle;
+}
+/*.card-box-b .title-2:before {
   content: '';
   position: absolute;
   left: 0;
@@ -1483,7 +1492,7 @@ a:hover {
   width: 100px;
   height: 1px;
   background: #febf10;
-}
+}*/
 
 .card-header-b {
   padding: 1rem;
@@ -1491,7 +1500,7 @@ a:hover {
   position: absolute;
   bottom: 20px;
   z-index: 2;
-  height: 70%;
+  height: 80%;
   width: 100%;
 }
 
@@ -1507,7 +1516,7 @@ a:hover {
 
 .card-header-b .title-2 {
   margin-bottom: 0;
-  font-size: 1.2rem !important;
+  font-size: 1.2rem ;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
@@ -1528,7 +1537,7 @@ a:hover {
 .card-box-b .content-c p {
     color: #e5e4e4;
     font-weight: 300;
-    font-size: 15px;
+    font-size: 14px;
 }
 /*------/ News Single /------*/
 .post-information {
