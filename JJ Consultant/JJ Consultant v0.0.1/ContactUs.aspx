@@ -350,7 +350,7 @@
 
                         <div class="copyright-footer">
                             <p class="copyright color-text-a">
-                                &copy; Copyright
+                                &copy; Copyright 2020
                                 <span class="color-a">JJ CONSULTANCY</span> All Rights Reserved.
                             </p>
                         </div>
