@@ -92,7 +92,7 @@
                                                 <br>
                                                 Achieve your goals</h5>
                                             <p class="intro-subtitle intro-price">
-                                                <a href="ContactUs.aspx"><span class="price-a">Contact Us</span></a>
+                                                <a href="#contact-us"><span class="price-a">Contact Us</span></a>
                                             </p>
                                         </div>
                                     </div>
@@ -545,22 +545,22 @@
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <div class="form-group">
-                                        <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                                        <input type="text" id="txtNAME" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <div class="form-group">
-                                        <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                                        <input name="email" id="txtEMAIL" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
                                     </div>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <div class="form-group">
-                                        <input type="url" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+                                        <input type="text" id="txtSUBJECT" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
                                     </div>
                                 </div>
                                 <div class="col-md-12 mb-3">
                                     <div class="form-group">
-                                        <textarea name="message" class="form-control" name="message" cols="45" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                                        <textarea name="message" id="txtMESSAGE" class="form-control" cols="45" rows="4" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-md-12 mb-3">
@@ -572,7 +572,7 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 d-flex justify-content-center">
-                                    <button type="submit" class="btn btn-a">Send Message</button>
+                                    <button type="submit" class="btn btn-a" id="btnSUBMIT">Send Message</button>
                                 </div>
                             </div>
                         </div>
@@ -810,6 +810,27 @@
             </div>
         </footer>
         <!--/ Footer End /-->
+        
+        <!-- Modal -->
+        <div class="modal fade" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="modalAlertCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="text-center" id="lblHEADER"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6 class="text-center" id="lblALERT"></h6>
+                    </div>
+                    <div class="modal-footer">
+                        <button id="mdlCLOSE" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ Modal -->
 
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
@@ -831,6 +852,7 @@
 
     <!-- Main Javascript File -->
     <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
 
 </body>
 </html>
